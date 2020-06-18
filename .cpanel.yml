@@ -1,0 +1,5 @@
+---
+deployment:
+  tasks:
+    - export DEPLOYPATH=/home/rediland/public_html/
+    - /bin/cp -R /home/rediland/repositories/rediland $DEPLOYPATH
