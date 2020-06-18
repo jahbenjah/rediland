@@ -2,4 +2,8 @@
 deployment:
   tasks:
     - export DEPLOYPATH=/home/rediland/public_html/
-    - /bin/cp -R /home/rediland/repositories/rediland $DEPLOYPATH
+    - /bin/cp -R /home/rediland/repositories/rediland/assets $DEPLOYPATH
+    - /bin/cp -R /home/rediland/repositories/rediland/forms $DEPLOYPATH
+    - /bin/cp -R /home/rediland/repositories/rediland/about.html $DEPLOYPATH
+    - /bin/cp -R /home/rediland/repositories/rediland/contact.html $DEPLOYPATH
+    - /bin/cp -R /home/rediland/repositories/rediland/indext.html $DEPLOYPATH
