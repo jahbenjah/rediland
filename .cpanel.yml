@@ -6,4 +6,4 @@ deployment:
     - /bin/cp -R /home/rediland/repositories/rediland/forms $DEPLOYPATH
     - /bin/cp -R /home/rediland/repositories/rediland/about.html $DEPLOYPATH
     - /bin/cp -R /home/rediland/repositories/rediland/contact.html $DEPLOYPATH
-    - /bin/cp -R /home/rediland/repositories/rediland/indext.html $DEPLOYPATH
+    - /bin/cp -R /home/rediland/repositories/rediland/index.html $DEPLOYPATH
