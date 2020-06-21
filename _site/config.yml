@@ -1,8 +1,7 @@
 # Site settings
 title: Zona Rosarito
 email: your-email@example.com
-description: >-
-  zonarosarito.com es un sitio web dedicado a Rosarito
+description: "zonarosarito.com es un sitio web dedicado a Rosarito"
 baseurl: ""
 url: "https://zonarosarito.com" # the base hostname & protocol for your site, e.g. http://example.com
 twitter_username: denicolasromero
@@ -11,6 +10,7 @@ lang: es_mx
 
 minima:
   date_format: "%-d de %B del %Y"
+  show_excerpts: false
   # generate social links in footer
   social_links:
     twitter: jekyllrb
