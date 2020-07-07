@@ -4,13 +4,13 @@ deployment:
     - export DEPLOYPATH=/home/rediland/public_html/
     - /bin/cp -R /home/rediland/repositories/rediland/_site/assets $DEPLOYPATH
     - /bin/cp -R /home/rediland/repositories/rediland/_site/forms $DEPLOYPATH
+    - /bin/cp -R /home/rediland/repositories/rediland/_site/index.html $DEPLOYPATH
+    - /bin/cp -R /home/rediland/repositories/rediland/_site/contact.html $DEPLOYPATH
     - /bin/cp -R /home/rediland/repositories/rediland/_site/about.html $DEPLOYPATH
     - /bin/cp -R /home/rediland/repositories/rediland/_site/agent-single.html $DEPLOYPATH
     - /bin/cp -R /home/rediland/repositories/rediland/_site/agents-grid.html $DEPLOYPATH
     - /bin/cp -R /home/rediland/repositories/rediland/_site/blog-grid.html $DEPLOYPATH
-    - /bin/cp -R /home/rediland/repositories/rediland/_blog-single.html $DEPLOYPATH
-    - /bin/cp -R /home/rediland/repositories/rediland/_site/contact.html $DEPLOYPATH
-    - /bin/cp -R /home/rediland/repositories/rediland/_site/index.html $DEPLOYPATH
+    - /bin/cp -R /home/rediland/repositories/rediland/_site/blog-single.html $DEPLOYPATH
     - /bin/cp -R /home/rediland/repositories/rediland/_site/property-grid.html $DEPLOYPATH
     - /bin/cp -R /home/rediland/repositories/rediland/_site/property-single.html $DEPLOYPATH
     - /bin/cp -R /home/rediland/repositories/rediland/_site/robots.txt $DEPLOYPATH
