@@ -40,6 +40,14 @@ exclude:
   - package.json
   - gulpfile.js
   - img-temp/
+  - index.md
+  - gallery.md
+  - property-grid.md
+  - property-single.md
+  - contact.md
+  - about.md
+  - agent-single.md
+  - agents-grid.md
 
 defaults:
   -
