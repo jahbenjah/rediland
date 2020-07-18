@@ -12,7 +12,9 @@ deployment:
     - /bin/cp -R /home/rediland/repositories/rediland/_site/agents-grid.html $DEPLOYPATH
     - /bin/cp -R /home/rediland/repositories/rediland/_site/blog-grid.html $DEPLOYPATH
     - /bin/cp -R /home/rediland/repositories/rediland/_site/blog-single.html $DEPLOYPATH
-    - /bin/cp -R /home/rediland/repositories/rediland/_site/property-grid.html $DEPLOYPATH
     - /bin/cp -R /home/rediland/repositories/rediland/_site/property-single.html $DEPLOYPATH
     - /bin/cp -R /home/rediland/repositories/rediland/_site/robots.txt $DEPLOYPATH
+    - /bin/cp -R /home/rediland/repositories/rediland/_site/favicon-32x32.png $DEPLOYPATH
+    - /bin/cp -R /home/rediland/repositories/rediland/_site/favicon-16x16.png $DEPLOYPATH
+    - /bin/cp -R /home/rediland/repositories/rediland/_site/site.webmanifest $DEPLOYPATH
     - /bin/cp -R /home/rediland/repositories/rediland/_site/sitemap.xml $DEPLOYPATH
